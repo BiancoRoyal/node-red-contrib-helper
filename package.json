@@ -58,7 +58,7 @@
     "postinstall": "node ./supporter.js",
     "clean": "gulp clean",
     "dev-link": "npm i && npm run build && npm link",
-    "dev-unlink": "npm unlink node-red-contrib-helper"
+    "dev-unlink": "npm unlink node-red-contrib-helper -g"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.9",
