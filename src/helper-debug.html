@@ -403,7 +403,7 @@
                     subWindow.postMessage({event:"workspaceChange",activeWorkspace:RED.workspaces.active()},"*");
                 };
             });
-            RED.popover.tooltip($("#red-ui-sidebar-helper-open"),RED._('node-red:helper.sidebar.openWindow'));
+            RED.popover.tooltip($("#red-ui-sidebar-helper-open"),RED._('node-helper.sidebar.openWindow'));
 
 
 
@@ -443,13 +443,13 @@
         oneditprepare: function() {
             var autoType = {
                 value: "auto",
-                label: RED._("node-red:helper.autostatus"),
+                label: RED._("node-red:debug.autostatus"),
                 hasValue: false
             };
 
             var counter = {
                 value: "counter",
-                label: RED._("node-red:helper.messageCount"),
+                label: RED._("node-red:debug.messageCount"),
                 hasValue: false
             };
 
@@ -461,7 +461,7 @@
             var that = this;
             var none = {
                 value: "none",
-                label: RED._("node-red:helper.none"),
+                label: RED._("node-red:debug.none"),
                 hasValue: false
             };
             if (this.tosidebar === undefined) {
@@ -483,7 +483,7 @@
             }
             var fullType = {
                 value: "full",
-                label: RED._("node-red:helper.msgobj"),
+                label: RED._("node-red:debug.msgobj"),
                 hasValue: false
             };
 
