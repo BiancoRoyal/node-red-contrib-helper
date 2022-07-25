@@ -64,7 +64,7 @@
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
-    "@node-red/nodes": "^3.0.0",
+    "@node-red/nodes": "^3.0.1",
     "chai": "^4.3.6",
     "codacy-coverage": "^3.4.0",
     "conventional-changelog-cli": "^2.2.2",
