@@ -83,7 +83,7 @@
     "js-beautify": "^1.14.3",
     "mocha": "^9.2.2",
     "nock": "^13.2.4",
-    "node-red": "^3.0.0",
+    "node-red": "^3.0.1",
     "node-red-node-test-helper": "^0.3.0",
     "nyc": "^15.1.0",
     "pump": "^3.0.0",
