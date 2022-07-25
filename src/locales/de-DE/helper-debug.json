@@ -1,0 +1,42 @@
+{
+  "helper": {
+    "output": "Ausgabe",
+    "status": "Status",
+    "none": "Keine",
+    "invalid-exp": "Ungültiger JSONata-Ausdruck: __error__",
+    "msgprop": "Nachrichteneigenschaft",
+    "msgobj": "Kompletten Nachrichten-Objekt",
+    "autostatus": "Identisch mit Test-Helper-Ausgabe",
+    "to": "über",
+    "debtab": "Test-Helper-Tab",
+    "tabcon": "Test-Helper-Tab und Systemkonsole",
+    "toSidebar": "Helper-Tab",
+    "toConsole": "Systemkonsole",
+    "toStatus": "Node-Status (max. 32 Zeichen)",
+    "severity": "Stufe",
+    "notification": {
+      "activated": "Erfolgreich aktiviert: __label__",
+      "deactivated": "Erfolgreich deaktiviert: __label__"
+    },
+    "sidebar": {
+      "label": "Test-Helper",
+      "name": "Test-Helper-Nachrichten",
+      "filterAll": "Alle Nodes/Flows",
+      "filterSelected": "Ausgewählte Nodes",
+      "filterCurrent": "Aktueller Flow",
+      "debugNodes": "Test-Helper-Nodes",
+      "clearLog": "Test-Helper-Protokoll löschen",
+      "filterLog": "Test-Helper-Protokoll filtern",
+      "openWindow": "In neuem Fenster öffnen",
+      "copyPath": "Pfad kopieren",
+      "copyPayload": "Wert kopieren",
+      "pinPath": "Angezeigt lassen (pinnen)"
+    },
+    "messageMenu": {
+      "collapseAll": "Alle Pfade ausblenden",
+      "clearPinned": "Gepinnte Anzeige rücksetzen",
+      "filterNode": "Diesen Node filtern",
+      "clearFilter": "Filter rücksetzen"
+    }
+  }
+}

@@ -7,9 +7,9 @@
         <input id="node-input-targetType" type="hidden">
     </div>
     <div class="form-row">
-        <label for="node-input-tosidebar"><i class="fa fa-random"></i> <span data-i18n="helper.to"></span></label>
-        <label for="node-input-tosidebar" style="width:70%">
-        <input type="checkbox" id="node-input-tosidebar" style="display:inline-block; width:22px; vertical-align:top;"><span data-i18n="helper.toSidebar"></span>
+        <label for="node-input-to-sidebar"><i class="fa fa-random"></i> <span data-i18n="helper.to"></span></label>
+        <label for="node-input-to-sidebar" style="width:70%">
+        <input type="checkbox" id="node-input-to-sidebar" style="display:inline-block; width:22px; vertical-align:top;"><span data-i18n="helper.toSidebar"></span>
         </label>
     </div>
     <div class="form-row">
@@ -99,10 +99,10 @@
         labelStyle: function() {
             return this.name?"node_label_italic":"";
         },
-        color:"#20a505",
+        color:"rgba(53,234,144,0.85)",
         inputs:1,
         outputs:0,
-        icon: "debug.svg",
+        icon: "helper.svg",
         align: "right",
         button: {
             toggle: "active",
@@ -208,7 +208,7 @@
                 toolbar: uiComponents.footer,
                 enableOnEdit: true,
                 pinned: true,
-                iconClass: "fa fa-bug",
+                iconClass: "fa fa-rocket",
                 action: "core:show-helper-tab"
             });
             RED.actions.add("core:show-helper-tab",function() { RED.sidebar.show('helper'); });

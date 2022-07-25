@@ -19,6 +19,18 @@ This [contribution package][3] helps to build visual flows in [Node-RED][1] for 
 Report issues, share your experiences, record tutorials,
 write Wiki articles and Blogs to share more about this package, please!
 
+### Helper Flow Example
+
+This example shows the helper node from the "node-red-node-test-helper".
+
+![OPC UA IIoT Server Example](assets/flow_example_iiot_opcua.png)
+
+### Helper Message Board
+
+The message board shows just the helper node messages from the "node-red-node-test-helper".
+That means you have no spam inside the debug tab.
+
+![OPC UA IIoT Server Example](assets/flow_msg_iiot_opcua.png)
 
 [1]:https://nodered.org
 [2]:https://github.com/biancode

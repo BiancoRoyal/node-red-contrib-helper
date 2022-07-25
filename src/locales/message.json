@@ -1,0 +1,49 @@
+{
+  "helper": {
+    "output": "Output",
+    "status": "status",
+    "none": "None",
+    "invalid-exp": "Invalid JSONata expression: __error__",
+    "msgprop": "message property",
+    "msgobj": "complete msg object",
+    "autostatus": "same as Test-Helper output",
+    "messageCount": "message count",
+    "to": "To",
+    "debtab": "Test-Helper tab",
+    "tabcon": "Test-Helper tab and console",
+    "toSidebar": "Test-Helper window",
+    "toConsole": "system console",
+    "toStatus": "node status (32 characters)",
+    "severity": "Level",
+    "node": "node",
+    "notification": {
+      "activated": "Successfully activated: __label__",
+      "deactivated": "Successfully deactivated: __label__"
+    },
+    "sidebar": {
+      "label": "Test-Helper",
+      "name": "Test-Helper messages",
+      "filterAll": "all nodes",
+      "filterSelected": "selected nodes",
+      "filterCurrent": "current flow",
+      "debugNodes": "Test-Helper nodes",
+      "clearLog": "Clear messages",
+      "clearFilteredLog": "Clear filtered messages",
+      "filterLog": "Filter messages",
+      "openWindow": "Open in new window",
+      "copyPath": "Copy path",
+      "copyPayload": "Copy value",
+      "pinPath": "Pin open",
+      "selectAll": "select all",
+      "selectNone": "select none",
+      "all": "all",
+      "filtered": "filtered"
+    },
+    "messageMenu": {
+      "collapseAll": "Collapse all paths",
+      "clearPinned": "Clear pinned paths",
+      "filterNode": "Filter this node",
+      "clearFilter": "Clear filter"
+    }
+  }
+}
