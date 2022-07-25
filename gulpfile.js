@@ -17,6 +17,7 @@ const babel = require('gulp-babel')
 const sourcemaps = require('gulp-sourcemaps')
 const pump = require('pump')
 const replace = require('gulp-replace')
+const changelog = require('gulp-conventional-changelog')
 
 function releaseIcons () {
   return src('src/icons/**/*').pipe(dest('helper/icons'))
@@ -45,6 +46,24 @@ function releaseViewData () {
 function cleanProject () {
   return src(['helper', 'docs/gen', 'jcoverage'], { allowEmpty: true })
     .pipe(clean({ force: true }))
+}
+
+function changeLogProject () {
+  return src('CHANGELOG.md')
+    .pipe(changelog({
+      // conventional-changelog options go here
+      preset: 'angular',
+      releaseCount: 0
+    }, {
+      // context goes here
+    }, {
+      // git-raw-commits options go here
+    }, {
+      // conventional-commits-parser options go here
+    }, {
+      // conventional-changelog-writer options go here
+    }))
+    .pipe(dest('./'))
 }
 
 function releaseWebContent () {
@@ -94,8 +113,9 @@ function doc (cb) {
     .pipe(jsdoc(cb))
 }
 
-exports.default = series(cleanProject, releaseWebContent, releaseJSContent, codeJSContent, releaseLocal, releasePublicData, releaseViewData, releaseIcons, doc, docIcons, docImages)
+exports.default = series(cleanProject, releaseWebContent, releaseJSContent, codeJSContent, releaseLocal, releasePublicData, releaseViewData, releaseIcons, doc, docIcons, docImages, changeLogProject)
 exports.clean = cleanProject
+exports.changeLog = changeLogProject
 exports.build = series(cleanProject, releaseWebContent, releaseJSContent, releaseLocal, releaseViewData, codeJSContent)
 exports.buildDocs = series(doc, docIcons, docImages)
-exports.publish = series(cleanProject, releaseWebContent, releaseJSContent, releaseLocal, codeJSContent, releasePublicData, releaseViewData, releaseIcons, doc, docIcons, docImages)
+exports.publish = series(cleanProject, releaseWebContent, releaseJSContent, releaseLocal, codeJSContent, releasePublicData, releaseViewData, releaseIcons, doc, docIcons, docImages, changeLogProject)
