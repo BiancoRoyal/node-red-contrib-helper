@@ -81,7 +81,7 @@
     "istanbul": "^0.4.5",
     "jasmine-node": "^3.0.0",
     "js-beautify": "^1.14.3",
-    "mocha": "^9.2.2",
+    "mocha": "^10.0.0",
     "nock": "^13.2.4",
     "node-red": "^3.0.0",
     "node-red-node-test-helper": "^0.3.0",
