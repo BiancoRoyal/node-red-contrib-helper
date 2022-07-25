@@ -1,10 +1,3 @@
-/*
- The MIT License
-
- Copyright (c) 2017,2018,2019,2020,2021 - Klaus Landsdorf (https://bianco-royal.space/)
- All rights reserved.
- node-red-contrib-iiot-jwt
- */
 
 'use strict'
 
