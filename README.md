@@ -12,7 +12,8 @@
 
 ## The test helper node toolbox contribution package for visual Node-RED package testing.
 
-This contribution package of the [Node-RED PLUS Community][3] helps to build visual flows in [Node-RED][1] for the node-red-node-test-helper tests.
+This contribution package of the [Node-RED PLUS Community][3] helps 
+to build visual flows in [Node-RED][1] for [the node-red-node-test-helper][4] tests.
 
 ### For Testers
 
@@ -32,7 +33,11 @@ That means you have no spam inside the debug tab.
 
 ![OPC UA IIoT Server Example](assets/flow_msg_iiot_opcua.png)
 
+## Contributors
+
+- 2022 [Klaus Landsdorf][2]
+
 [1]:https://nodered.org
 [2]:https://github.com/biancode
 [3]:https://noderedplus.de/
-[4]:https://github.com/BiancoRoyal/node-red-contrib-helper
+[4]:https://github.com/node-red/node-red-node-test-helper
