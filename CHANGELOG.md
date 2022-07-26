@@ -1,4 +1,4 @@
-# [1.1.0](https://github.com/biancoroyal/node-red-contrib-helper/compare/8f45ad6bdbb4849abc462cca6b6613210fdad422...v1.1.0) (2022-07-25)
+# 1.1.0 (2022-07-25)
 
 
 ### Bug Fixes
