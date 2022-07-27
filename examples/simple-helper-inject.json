@@ -1,16 +1,16 @@
 [
     {
-        "id": "c872ebc86181e41c",
+        "id": "0dd3ccac79e5d7ee",
         "type": "tab",
-        "label": "Test-Helper",
+        "label": "Test-Helper Example",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "2c765cff7849f06c",
+        "id": "1a9325ddc82ea17b",
         "type": "helper",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "helper 1",
         "active": true,
         "tosidebar": true,
@@ -24,9 +24,9 @@
         "wires": []
     },
     {
-        "id": "80a86c29857e94e4",
+        "id": "919032af611ecab5",
         "type": "inject",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "",
         "props": [
             {
@@ -48,15 +48,15 @@
         "y": 120,
         "wires": [
             [
-                "3cf2a8678f2c19ba",
-                "2c765cff7849f06c"
+                "55dc59f51c621259",
+                "1a9325ddc82ea17b"
             ]
         ]
     },
     {
-        "id": "3cf2a8678f2c19ba",
+        "id": "55dc59f51c621259",
         "type": "debug",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "debug 1",
         "active": true,
         "tosidebar": true,
@@ -70,9 +70,9 @@
         "wires": []
     },
     {
-        "id": "3b7284bd28176196",
+        "id": "698675acd0d9160d",
         "type": "comment",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "Debug vs. Test-Helper",
         "info": "All messages from the \ndebug and the Test-Helper views \nare separated and not mixed. \n\nSee the views at the right side of Node-RED:\n\n - debug\n - Test-Helper",
         "x": 420,
@@ -80,9 +80,9 @@
         "wires": []
     },
     {
-        "id": "93b14d5378b5ecb2",
+        "id": "ed1bde92d344fa22",
         "type": "inject",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "",
         "props": [
             {
@@ -104,14 +104,14 @@
         "y": 60,
         "wires": [
             [
-                "3cf2a8678f2c19ba"
+                "55dc59f51c621259"
             ]
         ]
     },
     {
-        "id": "a0cc03e9d418c432",
+        "id": "5cdded0cb3764dd2",
         "type": "inject",
-        "z": "c872ebc86181e41c",
+        "z": "0dd3ccac79e5d7ee",
         "name": "",
         "props": [
             {
@@ -133,7 +133,7 @@
         "y": 180,
         "wires": [
             [
-                "2c765cff7849f06c"
+                "1a9325ddc82ea17b"
             ]
         ]
     }
