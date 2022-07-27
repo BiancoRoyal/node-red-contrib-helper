@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-helper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "description": "The test helper node toolbox contribution package for visual Node-RED package testing.",
   "dependencies": {
@@ -99,6 +99,7 @@
     "when": "^3.7.8"
   },
   "directories": {
+    "doc": "docs",
     "example": "examples",
     "test": "test"
   },

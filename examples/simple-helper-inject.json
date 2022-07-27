@@ -1,0 +1,140 @@
+[
+    {
+        "id": "c872ebc86181e41c",
+        "type": "tab",
+        "label": "Test-Helper",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c765cff7849f06c",
+        "type": "helper",
+        "z": "c872ebc86181e41c",
+        "name": "helper 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "80a86c29857e94e4",
+        "type": "inject",
+        "z": "c872ebc86181e41c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "3cf2a8678f2c19ba",
+                "2c765cff7849f06c"
+            ]
+        ]
+    },
+    {
+        "id": "3cf2a8678f2c19ba",
+        "type": "debug",
+        "z": "c872ebc86181e41c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3b7284bd28176196",
+        "type": "comment",
+        "z": "c872ebc86181e41c",
+        "name": "Debug vs. Test-Helper",
+        "info": "All messages from the \ndebug and the Test-Helper views \nare separated and not mixed. \n\nSee the views at the right side of Node-RED:\n\n - debug\n - Test-Helper",
+        "x": 420,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "93b14d5378b5ecb2",
+        "type": "inject",
+        "z": "c872ebc86181e41c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 60,
+        "wires": [
+            [
+                "3cf2a8678f2c19ba"
+            ]
+        ]
+    },
+    {
+        "id": "a0cc03e9d418c432",
+        "type": "inject",
+        "z": "c872ebc86181e41c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "2c765cff7849f06c"
+            ]
+        ]
+    }
+]
