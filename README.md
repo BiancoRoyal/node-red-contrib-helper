@@ -12,8 +12,17 @@
 
 ## The test helper node toolbox contribution package for visual Node-RED package testing.
 
-This contribution package of the [Node-RED PLUS Community][3] helps 
-to build visual flows in [Node-RED][1] for [the node-red-node-test-helper][4] tests.
+This contribution is a package of the PLUS for Node-RED Community and helps 
+to build visual flows in [Node-RED][1] for [the node-red-node-test-helper][3] tests.
+
+## International IIoT Website for Node-RED
+
+For an international area, [Iniationware][4] has provided the [PLUS for Node-RED International][5] website.
+
+## IIoT Webseite Deutschland für Node-RED
+
+Für einen deutschsprachigen Bereich hat [Iniationware][4] die Webseite [PLUS for Node-RED Germany][6] bereitgestellt.
+
 
 ### For Testers
 
@@ -39,5 +48,7 @@ That means you have no spam inside the debug tab.
 
 [1]:https://nodered.org
 [2]:https://github.com/biancode
-[3]:https://noderedplus.de/
-[4]:https://github.com/node-red/node-red-node-test-helper
+[3]:https://github.com/node-red/node-red-node-test-helper
+[4]:https://github.com/Iniationware
+[5]:https://www.noderedplus.de/
+[6]:https://www.noderedplus.de/de/
