@@ -4,7 +4,7 @@
   "private": false,
   "description": "The test helper node toolbox contribution package for visual Node-RED package testing.",
   "dependencies": {
-    "debug": "~4.3.4",
+    "debug": "~4.3.5",
     "fs-extra": "~10.1.0",
     "source-map-support": "~0.5.21"
   },
